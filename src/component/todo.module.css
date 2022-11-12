@@ -1,0 +1,38 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: lightslategray;
+    transition: 1s;
+    border-radius: 5px;
+    
+}
+
+.todo:hover{
+    background-color: rgb(72, 89, 105);   
+}
+
+.todo h3{
+    text-transform: capitalize;
+}
+
+.todo p{
+    opacity: 0.6;
+}
+
+.todo i{
+    color: green;  
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.todo i:hover{
+    color: red;  
+}
+.todo button{
+    background-color: transparent;
+    border: none;
+
+}
